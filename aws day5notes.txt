@@ -1,0 +1,46 @@
+IAM(identity access management)
+
+I--identity (authentication--username & pssword) to be able to loginto the aws/fb
+	iam user 
+	Iam role(temporary purpose)
+
+	3 ways to access
+	- aws console
+	- cli
+	- sdk
+	
+A--Access (authorisation--to be able to use the services(260+))
+	-polices--giving permissions based on the requirement ex:db
+	-groups
+M--management
+=======================================================
+
+IAM task
+
+aws console
+
+create a user acc
+login through incognito
+try to access s3
+attach policy to that user(s3) and check
+try accesssing iam/ec2
+add permissions to use the ec2/iam and check again the diff
+generate access key again
+	security creentials
+	create access keys
+
+
+aws cli
+
+ aws sts get-caller-identity
+
+
+
+
+
+
+
+
+
+
+
